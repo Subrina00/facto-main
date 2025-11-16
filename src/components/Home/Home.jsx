@@ -3,6 +3,7 @@ import Homo from "../../assets/home.png";
 import card1 from "../../assets/card1.png";
 import card2 from "../../assets/card2.png";
 import card3 from "../../assets/card3.png";
+import card4 from "../../assets/card4.png";
 import sale from "../../assets/sale.png";
 import avgsale from "../../assets/avgsale.png";
 import dollar from "../../assets/dollar.png";
@@ -22,6 +23,11 @@ import company5 from "../../assets/company5.png";
 import cash1 from "../../assets/cash1.png";
 import cash2 from "../../assets/cash2.png";
 import cash3 from "../../assets/cash3.png";
+import cas1 from "../../assets/cas1.png";
+import cas2 from "../../assets/cas2.png";
+import cas3 from "../../assets/cas3.png";
+import cas4 from "../../assets/cas4.png";
+import visa from "../../assets/visa.png";
 
 
 import BarChart from '../Atoms/BarChart';
@@ -91,6 +97,7 @@ const Home = () => {
                 </div>
 
               </div>
+
               <div className="rounded-[24px] px-[14px] md:px-[14px] xl:px-[14px] sm:px-[22px] lg:px-[22px] 2xl:px-[22px] py-[14px] md:py-[14px] xl:py-[14px] sm:py-[16px] lg:py-[16px] 2xl:py-[16px] bg-[#BFE5A6] flex justify-between items-center
                gap-[7px] md:gap-[7px] xl:gap-[7px] sm:gap-[10px] lg:gap-[10px] 2xl:gap-[10px] max-w-[300px] md:max-w-[300px] xl:max-w-[300px] sm:max-w-[400px] lg:max-w-[400px] 2xl:max-w-[400px]">
                 <img src={avgsale} alt="" />
@@ -307,9 +314,9 @@ const Home = () => {
               <div className="bg-[#DAFFC2] flex flex-col justify-between items-start gap-[24px] py-[33px] px-[20px] sm:px-[24px] md:px-[20px] lg:px-[24px] xl:px-[20px] 2xl:px-[24px]
               max-w-[330px] sm:max-w-[398px] md:max-w-[330px] lg:max-w-[398px] xl:max-w-[330px] 2xl:max-w-[398px] rounded-[25px]">
                 <p className="text-[#141414] font-roboto font-bold text-[24px] pl-[6px]">Sign Up</p>
-                <input type="text" className="bg-white rounded-[25px] outline-none w-[300px] sm:w-[350px] md:w-[300px] lg:w-[350px] xl:w-[300px] 2xl:w-[350px] h-[64px] text-[#68686880] px-[24px] text-[18px]" placeholder="Name" />
-                <input type="text" className="bg-white rounded-[25px] outline-none w-[300px] sm:w-[350px] md:w-[300px] lg:w-[350px] xl:w-[300px] 2xl:w-[350px] h-[64px] text-[#68686880] px-[24px] text-[18px]" placeholder="Company Name" />
-                <input type="text" className="bg-white rounded-[25px] outline-none w-[300px] sm:w-[350px] md:w-[300px] lg:w-[350px] xl:w-[300px] 2xl:w-[350px] h-[64px] text-[#68686880] px-[24px] text-[18px]" placeholder="Password" />
+                <input type="text" className="bg-white rounded-[25px] outline-none w-[300px] sm:w-[350px] md:w-[300px] lg:w-[350px] xl:w-[300px] 2xl:w-[350px] h-[54px] sm:h-[64px] md:h-[54px] lg:h-[64px] xl:h-[54px] 2xl:h-[64px] text-[#68686880] px-[24px] text-[18px]" placeholder="Name" />
+                <input type="text" className="bg-white rounded-[25px] outline-none w-[300px] sm:w-[350px] md:w-[300px] lg:w-[350px] xl:w-[300px] 2xl:w-[350px] h-[54px] sm:h-[64px] md:h-[54px] lg:h-[64px] xl:h-[54px] 2xl:h-[64px] text-[#68686880] px-[24px] text-[18px]" placeholder="Company Name" />
+                <input type="text" className="bg-white rounded-[25px] outline-none w-[300px] sm:w-[350px] md:w-[300px] lg:w-[350px] xl:w-[300px] 2xl:w-[350px] h-[54px] sm:h-[64px] md:h-[54px] lg:h-[64px] xl:h-[54px] 2xl:h-[64px] text-[#68686880] px-[24px] text-[18px]" placeholder="Password" />
               </div>
 
               <div className="max-w-[320px] sm:max-w-[380px] md:max-w-[320px] lg:max-w-[380px] xl:max-w-[320px] 2xl:max-w-[380px] flex flex-col justify-between items-start gap-[22px] sm:gap-[24px] md:gap-[22px] lg:gap-[24px] xl:gap-[22px] 2xl:gap-[24px]">
@@ -355,7 +362,7 @@ const Home = () => {
                   </div>
                   <div className="bg-[#DAFFC2] flex justify-between items-center rounded-[12px] p-[24px] gap-[80px] sm:gap-[140px] md:gap-[80px] lg:gap-[140px] xl:gap-[80px] 2xl:gap-[140px] max-w-[299px] max-h-[40px]">
                     <p className="text-[#141414] font-roboto font-semibold text-[14px]">See detail</p>
-                    <p className="text-[#141414] font-roboto font-semibold text-[14px]">&gt; &gt;</p>
+                    <p className="text-[#141414] font-roboto font-semibold text-[14px]">&gt;&gt;</p>
                   </div>
                 </div>
 
@@ -381,7 +388,7 @@ const Home = () => {
 
               <div className="bg-[#DAFFC2] p-[24px] flex flex-col justify-center items-center gap-[38px] sm:gap-[42px] md:gap-[38px] lg:gap-[42px] xl:gap-[38px] 2xl:gap-[42px] rounded-[25px]">
                 <div className="flex justify-between items-start gap-[14px] p-[14px] sm:p-[24px] md:p-[14px] lg:p-[24px] xl:p-[14px] 2xl:p-[24px] rounded-[25px] bg-white max-w-[300px] sm:max-w-[349px] md:max-w-[300px] lg:max-w-[349px] xlmax-w-[300px] 2xl:max-w-[349px]">
-                  <img src={card3} alt="" />
+                  <img src={card4} alt="" />
                   <div className="flex flex-col justify-between items-start gap-[8px]">
                     <p className="text-[#141414] font-roboto font-semibold text-[14px] sm:text-[18px] md:text-[14px] lg:text-[18px] xl:text-[14px] 2xl:text-[18px]">Receive Money from  card</p>
                     <p className="text-[#686868] font-manrope font-normal text-[11px] sm:text-[16px] md:text-[11px] lg:text-[16px] xl:text-[11px] 2xl:text-[16px]">Cash Deposited Within 24 Hours</p>
@@ -436,7 +443,94 @@ const Home = () => {
               and flexible solution to get early payments for credit card sales.</p>
           </div>
 
+
+          <div className='bg-[#F8F8F8] rounded-[25px] py-[80px] sm:px-[32px] grid grid-cols-1 xl:grid-cols-2 justify-between items-center gap-[106px] xl:gap-[66px] 2xl:gap-[86px] relative'>
+
+            {/* card1 */}
+            <div className='bg-[#E0F0E5] py-[41px] px-[32px] rounded-[25px] flex flex-col justify-between items-start gap-[36px] w-auto
+             md:w-[452px] lg:w-[552px] xl:w-[452px] 2xl:w-[552px] max-h-[598px] mx-auto'>
+              <div className="flex justify-between items-start gap-[14px] p-[14px] sm:p-[24px] md:p-[14px] lg:p-[24px] xl:p-[14px] 2xl:p-[24px] rounded-[25px] bg-white max-w-[300px] sm:max-w-[349px] md:max-w-[300px] lg:max-w-[349px] xlmax-w-[300px] 2xl:max-w-[349px]">
+                  <img src={card3} alt="" />
+                  <div className="flex flex-col justify-between items-start gap-[8px]">
+                    <p className="text-[#141414] font-roboto font-semibold text-[14px] sm:text-[18px] md:text-[14px] lg:text-[18px] xl:text-[14px] 2xl:text-[18px]">Receive Money from  card</p>
+                    <p className="text-[#686868] font-manrope font-normal text-[11px] sm:text-[16px] md:text-[11px] lg:text-[16px] xl:text-[11px] 2xl:text-[16px]">Cash Deposited Within 24 Hours</p>
+                  </div>
+                </div>
+
+                <div className="max-w-[300px] sm:max-w-[400px] md:max-w-[300px] lg:max-w-[400px] xl:max-w-[300px] 2xl:max-w-[400px]
+               max-h-[300px] sm:max-h-[361px] md:max-h-[300px] lg:max-h-[361px] xl:max-h-[300px] 2xl:max-h-[361px] rounded-[24px] bg-white">
+                <div className="flex justify-between items-center gap-[14px] sm:gap-[16px] md:gap-[14px] lg:gap-[16px] xl:gap-[14px] 2xl:gap-[16px]
+                 pt-[24px] sm:pt-[32px] md:pt-[24px] lg:pt-[32px] xl:pt-[24px] 2xl:pt-[32px] pl-[24px] sm:pl-[32.5px] md:pl-[24px] lg:pl-[32.5px]
+                  xl:pl-[24px] 2xl:pl-[32.5px] pr-[42px] sm:pr-[59.5px] md:pr-[42px] lg:pr-[59.5px] xl:pr-[42px] 2xl:pr-[59.5px]">
+                  <img src={sale} alt="" />
+                  <p className="text-[#686868] font-medium font-manrope text-[18px] md:text-[18px] xl:text-[18px] leading-[30px] md:leading-[30px]
+                   xl:leading-[30px] sm:text-[24px] lg:text-[24px] 2xl:text-[24px] sm:leading-[36px] lg:leading-[36px] 2xl:leading-[36px]">Total sales : 
+                     <span className="font-roboto font-bold text-[22px] md:text-[22px] xl:text-[22px] leading-[30px] md:leading-[30px] xl:leading-[30px] sm:text-[32px]
+                      lg:text-[32px] 2xl:text-[32px] sm:leading-[40px] lg:leading-[40px] 2xl:leading-[40px]"> $12,500</span></p>
+                </div>
+                <div className="px-[33px] pb-[10px] md:pb-[10px] xl:pb-[10px] sm:pb-[27px] lg:pb-[27px] 2xl:pb-[27px] h-[179px]
+                 mt-[76px] md:mt-[76px] xl:mt-[76px] sm:mt-[83px] lg:mt-[83px] 2xl:mt-[83px]">
+                  <BarChart />
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* card2 */}
+
+            <div className='bg-white md:h-[315px] lg:h-[346px] xl:h-[315px] 2xl:h-[346px] md:w-[244px] lg:w-[292px] xl:w-[244px] 2xl:w-[292px] rounded-[25px] p-[24px] md:flex md:flex-col md:justify-between
+              md:gap-[18px] lg:gap-[24px] xl:gap-[18px] 2xl:gap-[24px] hidden sm:absolute md:left-[490px] lg:left-[670px] xl:left-[425px] 2xl:left-[524px] md:top-[190px] lg:top-[210px] xl:top-[236px] 2xl:top-[236px]'>
+              <div className='flex flex-col justify-between items-start md:gap-[14px] lg:gap-[16px] xl:gap-[14px] 2xl:gap-[16px]'>
+                <p className='text-[#141414] font-manrope font-bold md:text-[20px] lg:text-[24px] xl:text-[20px] 2xl:text-[24px]'>Top User</p>
+                <div className="flex justify-between items-start">
+                    <img src={man2} alt="" className="relative" />
+                    <img src={man5} alt="" className="relative right-[12px]" />
+                    <img src={man1} alt="" className="relative right-[24px]" />
+                    <img src={man3} alt="" className="relative right-[36px]" />
+                    <img src={man4} alt="" className="relative right-[48px]" />
+                  </div>
+              </div>
+              <div className='bg-[#F8F8F8] rounded-[25px] p-[16px] flex flex-col justify-between md:gap-[6px] lg:gap-[8px] xl:gap-[6px] 2xl:gap-[8px]'>
+                <p className='text-[#686868] font-roboto font-semibold text-[14px]'>Enter Amount</p>
+                <p className='text-[#141414] font-roboto font-semibold text-[20px]'>$10000 
+                  <img src={visa} alt="" className='inline-flex justify-center items-center md:ml-[55px] lg:ml-[75px] xl:ml-[55px] 2xl:ml-[75px]' /></p>
+                <p className='text-[#686868] font-roboto font-semibold text-[14px]'>Discount Rate: 10%</p>
+              </div>
+              <div>
+                <button className='w-full bg-[#BFE5A6] md:py-[6px] lg:py-[8px] xl:py-[6px] 2xl:py-[8px] px-[24px] rounded-[25px]'>See detail</button>
+              </div>
+
+            </div>
+
+
+            {/* card3 */}
+            <div className='bg-[#F8F8F8] flex flex-col justify-between items-start gap-[40px] max-h-[606px] max-w-[330px] sm:max-w-[550px] md:max-w-[576px] mx-auto xl:ml-6 2xl:ml-14'>
+              <div className='flex flex-col justify-between items-start gap-[36px]'>
+                <h3 className='text-[#141414] font-roboto font-semibold text-[26px] sm:text-[28px] 2xl:text-[32px] leading-[40px]'>CASA offers instant, flexible funding from card transactions.</h3>
+                <p className='text-[#686868] font-manrope font-normal text-[14px] sm:text-[17px] 2xl:text-[20px] leading-[30px] sm:leading-[32px]'>CASA stands out by offering fast, flexible, and transparent funding for business owners who need immediate cash flow from credit card transactions.
+                   Here’s what makes us unique</p>
+              </div>
+              <div className='flex flex-col justify-between items-start gap-[20px] md:gap-[24px]'>
+                <p className='text-[#686868] font-roboto font-bold text-[15px] sm:text-[19px] md:text-[20px] 2xl:text-[24px]'>
+                  <img src={cas1} alt="" className='mr-[12px] sm:mr-[23px] inline-flex justify-center items-center h-[36px] w-[36px] md:h-[44px] md:w-[44px] 2xl:h-[48px] 2xl:w-[48px]' />Instant Cash, No Waiting</p>
+                <p className='text-[#686868] font-roboto font-bold text-[15px] sm:text-[19px] md:text-[20px] 2xl:text-[24px]'>
+                  <img src={cas2} alt="" className='mr-[12px] sm:mr-[23px] inline-flex justify-center items-center h-[36px] w-[36px] md:h-[44px] md:w-[44px] 2xl:h-[48px] 2xl:w-[48px]' />No Hidden Fees, No Surprises</p>
+                <p className='text-[#686868] font-roboto font-bold text-[15px] sm:text-[19px] md:text-[20px] 2xl:text-[24px]'>
+                  <img src={cas3} alt="" className='mr-[12px] sm:mr-[23px] inline-flex justify-center items-center h-[36px] w-[36px] md:h-[44px] md:w-[44px] 2xl:h-[48px] 2xl:w-[48px]' />Seamless POS & Payment Processor</p>
+                <p className='text-[#686868] font-roboto font-bold text-[15px] sm:text-[19px] md:text-[20px] 2xl:text-[24px]'>
+                  <img src={cas4} alt="" className='mr-[12px] sm:mr-[23px] inline-flex justify-center items-center h-[36px] w-[36px] md:h-[44px] md:w-[44px] 2xl:h-[48px] 2xl:w-[48px]' />Secure & Compliant Transactions</p>
+              </div>
+              <button type='button' className='bg-[#0F4E23] py-[12px] md:py-[14px] 2xl:py-[16px] px-[40px] rounded-[999px] text-white font-manrope font-semibold text-[16px] md:text-[18px] 2xl:text-[20px]'>Become a Member</button>
+              <div></div>
+
+            </div>
+
+          </div>
+
       </div>
+
+
 
 
 
