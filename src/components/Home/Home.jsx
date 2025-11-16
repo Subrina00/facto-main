@@ -448,7 +448,7 @@ const Home = () => {
           </div>
 
 
-          <div className='bg-[#F8F8F8] rounded-[25px] py-[80px] sm:px-[32px] grid grid-cols-1 xl:grid-cols-2 justify-between items-center gap-[106px] xl:gap-[66px] 2xl:gap-[86px] relative'>
+          <div className='bg-[#F8F8F8] w-full rounded-[25px] py-[80px] sm:px-[32px] grid grid-cols-1 xl:grid-cols-2 justify-between items-center gap-[106px] xl:gap-[66px] 2xl:gap-[86px] relative'>
 
             {/* card1 */}
             <div className='bg-[#E0F0E5] py-[41px] px-[32px] rounded-[25px] flex flex-col justify-between items-start gap-[36px] w-auto
