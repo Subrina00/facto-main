@@ -88,7 +88,9 @@ const Navbar = () => {
           <div className="flex items-center justify-end gap-[12px] sm:gap-[14px] xl:gap-[20px] w-full max-w-[148px] sm:max-w-[181px] xl:max-w-[323px]">
             <button
               type="button"
-              className="text-[14px] sm:text-[16px] xl:text-[18px] 2xl:text-[20px] leading-[22px] sm:leading-[26px] text-primary font-manrope py-[7px] sm:py-[12px] px-[20px] sm:px-[26px] xl:py-[14px] xl:px-[34px] 2xl:py-[16px] 2xl:px-[40px] rounded-[999px] max-w-[100px] sm:max-w-[135px] xl:max-w-[145px] w-full block bg-[#DFEDE3] font-semibold"
+              className="text-[14px] sm:text-[16px] xl:text-[18px] 2xl:text-[20px] leading-[22px] sm:leading-[26px] text-primary font-manrope
+               py-[7px] sm:py-[12px] px-[20px] sm:px-[26px] xl:py-[14px] xl:px-[34px] 2xl:py-[16px] 2xl:px-[40px] rounded-[999px] max-w-[100px]
+                sm:max-w-[135px] xl:max-w-[145px] w-full block bg-[#DFEDE3] font-semibold text-[#0F4E23]"
             >
               Sign In
             </button>

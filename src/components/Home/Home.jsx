@@ -28,9 +28,13 @@ import cas2 from "../../assets/cas2.png";
 import cas3 from "../../assets/cas3.png";
 import cas4 from "../../assets/cas4.png";
 import visa from "../../assets/visa.png";
+import star from "../../assets/star.png";
+import rev1 from "../../assets/rev1.png";
+import rev2 from "../../assets/rev2.png";
 
 
 import BarChart from '../Atoms/BarChart';
+import ReviewSlider from '../Atoms/ReviewSlider';
 
 
 const Home = () => {
@@ -529,6 +533,32 @@ const Home = () => {
           </div>
 
       </div>
+
+
+      {/* Reviews */}
+
+      <div className='container'>
+
+        <div className="max-w-[350px] sm:max-w-[460px] md:max-w-[630px] lg:max-w-[750px] xl:max-w-[878px] flex flex-col justify-between
+          items-center gap-[26px] sm:gap-[28px] md:gap-[30px] lg:gap-[32px] mx-auto pt-[130px] pb-[130px]">
+            <p className="bg-[#DFEDE3] rounded-[999px] py-[6px] px-[22px] lg:py-[8px] lg:px-[24px] max-w-[168px] font-manrope
+            font-semibold text-[15px] sm:text-[17px] lg:text-[18px] xl:text-[20px] text-[#0F4E23]">Reviews</p>
+            <h3 className="font-roboto font-extrabold text-[34px] sm:text-[37px] md:text-[48px] lg:text-[54px] xl:text-[56px] leading-[54px]
+             sm:leading-[60px] md:leading-[64px] lg:leading-[68px] text-[#141414] text-center xl:max-w-[786px] 2xl:max-w-[817px]">Hear What Customers Say About CASA!</h3>
+            <p className="text-[#686868] font-manrope font-normal text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[24px]
+             leading-[28px] sm:leading-[30px] md:leading-[33px] lg:leading-[36px] text-center md:max-w-[530px] lg:max-w-[590px] xl:max-w-[620px] 2xl:max-w-[651px]">
+              Trusted by Thousands of Business Owners See what our satisfied customers have to say about CASA</p>
+          </div>
+
+          <ReviewSlider />
+          
+
+      </div>
+
+
+      {/* pricing */}
+
+      <div className='pb-[160px]'></div>
 
 
 
